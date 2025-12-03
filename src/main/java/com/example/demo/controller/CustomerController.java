@@ -158,6 +158,7 @@ public class CustomerController {
         return ResponseEntity.ok(cart);
     }
 
+    @Autowired
     private OrderService orderService;
 
     @PostMapping("/orders")
